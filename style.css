@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url("./styles/galeria.css");
+@import url("./styles/index.css");
+@import url("./styles/servicos.css");
+@import url("./styles/acomodacoes.css");
+
+
+:root {
+    --fonte-primaria: "Averia Sans Libre", sans-serif;
+    --fonte-secundaria: "Average Sans", sans-serif;
+
+    --cor-principal: #002255;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

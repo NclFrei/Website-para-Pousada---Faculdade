@@ -1,0 +1,126 @@
+
+
+
+
+
+
+.titulo_acomodacoes{
+    font-size: 2.5em; 
+    text-align: center;
+    padding: 50px 20px 20px;
+    font-family: var(--fonte-primaria) 
+}
+
+.acomodacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 40px;
+}
+
+.acomodacoes__conteudo {
+    max-width: 60%; 
+    margin: 0 auto; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.acomodacoes_cards {
+    background-color: #f2f2f2; 
+    display: flex;
+    align-items: flex-start;
+}
+
+.imagem__card {
+    width: 25%; 
+    margin-right: 40px; 
+}
+
+.detalhes__acomodacoes{
+    padding-top: 20px;
+}
+
+.acomodacoes__servicos{
+    width: 80%;
+    justify-content: space-between;
+}
+
+.acomodacoes__servicos__detalhes{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.detalhes__acomodacoes__titulo{
+    font-family: var(--fonte-primaria);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.detalhes__acomodacoes__descricao {
+    font-family: var(--fonte-secundaria);
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; 
+}
+
+.acomodacoes__servicos {
+    display: flex;
+}
+
+.acomodacoes__servico {
+    flex-basis: 50%; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.acomodacoes__servicos__icons{
+    width: 30px; 
+    height: auto; 
+    margin-right: 10px;
+}
+
+.acomodacoes__servicos___texto{
+    font-family: var(--fonte-secundaria);
+}
+
+    @media screen and (max-width: 1700px) {
+
+        .acomodacoes__conteudo {
+            max-width: 90%; 
+        }
+        .detalhes__acomodacoes__titulo {
+            font-size: 1.8em; 
+        }
+
+        .detalhes__acomodacoes__descricao {
+            font-size: 0.9em; 
+        }
+
+        .acomodacoes__servicos___texto {
+            font-size: 0.9em; 
+    }
+
+    @media screen and (max-width: 1000px) {
+        .imagem__card {
+            width: 35%; 
+            margin-right: 20px; 
+        }
+
+        .detalhes__acomodacoes {
+            padding-top: 10px; 
+        }
+
+        .acomodacoes__servicos__detalhes {
+            padding: 5px; 
+        }
+    }
+
+}

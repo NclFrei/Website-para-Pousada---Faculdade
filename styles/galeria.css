@@ -1,0 +1,52 @@
+.titulo_sessao__fotos{
+    font-family: var(--fonte-primaria);
+    font-size: 2em;
+    padding: 30px;
+}
+
+.sessao_fotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px; 
+    max-width: calc(100% - 40px);
+    gap: 20px;
+}
+
+.foto {
+    position: relative;
+    max-width: 100%; 
+    height: auto;
+}
+
+.descricao_foto {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 1.5em;
+}
+
+.foto:hover .descricao_foto {
+    display: block;
+}
+
+@media screen and (max-width: 1700px) {
+    .sessao_fotos {
+        margin: 10px;
+    }
+    .descricao_foto {
+        font-size: 1em;
+    }
+}
+
+
+

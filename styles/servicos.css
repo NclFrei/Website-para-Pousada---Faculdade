@@ -1,0 +1,56 @@
+
+
+.titulo_servicos{
+    font-size: 2.5em; 
+    text-align: center;
+    padding: 20px;
+    font-family: var(--fonte-primaria) 
+}
+
+.texto_servicos{
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+}
+
+.servicos {
+    margin: 100px; 
+}
+
+.servicos_fileira { 
+    margin: 100px 0;   
+    display: flex;
+    justify-content: space-around; 
+}
+
+.servicos_conteudo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+}
+
+.texto_icone__servicos {
+    font-family: var(--fonte-secundaria);
+    line-height: 1.5; 
+    font-size: 1.5em;
+}
+
+
+/* Adicionando a responsividade */
+@media screen and (max-width: 1700px) {
+    .titulo_servicos {
+      font-size: 2em;
+    }
+
+    .texto_servicos{
+        font-size: 0.8em;
+    }
+  
+    .servicos {
+      margin: 50px;
+    }
+
+    .texto_icone__servicos {
+      font-size: 1em;
+    }
+  }
